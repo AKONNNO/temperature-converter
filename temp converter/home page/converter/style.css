@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #fff;
+}
+.container{
+    position: absolute;
+    background-color: rgb(243, 247, 249);
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #c5c5c5;
+    width: 400px;
+    border-radius: 30px;
+    left: 500px;
+    top: 230px;
+    height: 300px;
+}
+.heading{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    left: 60px;
+    top: 20px;
+}
+.options{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
+.options .toCelsius{
+    position: absolute;
+    top: 30px;
+}
+.input{
+    position: absolute;
+    top: 80px;
+
+}
+.input input{
+    border: none;
+    border-bottom: 1px solid lightgreen;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+}
+.input input:placeholder-shown{
+    text-align: center;
+}
+.submit{
+    position: absolute;
+    top: 240px;
+    left: 130px;
+}
+.submit button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 3em;
+    box-shadow: 6px 6px 12px #c5c5c5, -6px -6px 12px #c5c5c5;
+    cursor: pointer;
+}
+.submit button:hover{
+    background-color: black;
+    color: #fff;
+    transition: 0.9s ease;
+}
+.input p{
+    position: absolute;
+    top: 60px;
+    left: 80px;
+}
